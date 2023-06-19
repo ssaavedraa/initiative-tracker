@@ -3,46 +3,7 @@ import { useEffect } from 'react'
 import './App.css'
 import Character from './components/Character/Character'
 import { useState } from 'react'
-import { v4 as uuidv4 } from 'uuid'
 import { useAddCharacter } from './hooks/useAddCharacter'
-
-// const charactersInitialState = [
-//   {
-//     name: 'Santiago',
-//     initiative: 3,
-//     id: uuidv4()
-//   },
-//   {
-//     name: 'Santiago',
-//     initiative: 25,
-//     id: uuidv4()
-//   },
-//   {
-//     name: 'Santiago',
-//     initiative: 13,
-//     id: uuidv4()
-//   },
-//   {
-//     name: 'Santiago',
-//     initiative: 8,
-//     id: uuidv4()
-//   },
-//   {
-//     name: 'Santiago',
-//     initiative: 10,
-//     id: uuidv4()
-//   },
-//   {
-//     name: 'Santiago',
-//     initiative: 5,
-//     id: uuidv4()
-//   },
-//   {
-//     name: 'Santiago',
-//     initiative: 1,
-//     id: uuidv4()
-//   },
-// ]
 
 function App() {
   const {
